@@ -12,7 +12,7 @@
 -on_load(do_not_load/0).
 
 do_not_load() ->
-    do_not_load.
+    ok.
 
 size(_) ->
     {error, not_found}.
